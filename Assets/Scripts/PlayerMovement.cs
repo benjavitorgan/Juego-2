@@ -49,21 +49,11 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += new Vector3(MovementSpeed, 0, 0);
         }
-
-        if (Input.GetKey(KeyCode.Q))
-        {
-            transform.Rotate(0, -RotationSpeed, 0);
-        }
-
-        if (Input.GetKey(KeyCode.E))
-        {
-            transform.Rotate(0, RotationSpeed, 0);
-        }
     }
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Ground" && gameObject.transform.position.z > 5)
+        if (col.gameObject.tag == "Ground")
         {
             hasJump = true;
         }

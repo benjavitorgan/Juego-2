@@ -328,7 +328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 929ffd6c54d8c3d4285566abe7e0ac0a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000000018626
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 929ffd6c54d8c3d4285566abe7e0ac0a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3559,7 +3559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571642390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: 10.5, z: 16.7}
+  m_LocalPosition: {x: 2.69, y: 1, z: -8.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   nivel: {fileID: 0}
   txtCountdown: {fileID: 237006000}
   txtboton: {fileID: 1182158378}
-  InicialBase: {fileID: 0}
+  InicialBase: {fileID: 151214951}
   checkpoint: {fileID: 967348495}
   camara: {fileID: 1842042793}
   confeti: {fileID: 4931939948172333423, guid: ade28ddfb4e7fd7459ba3a6665ca217d, type: 3}
